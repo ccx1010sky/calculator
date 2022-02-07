@@ -12,7 +12,10 @@ public class CalculatorTest {
     public void testAdd() {
         assertEquals(8, calculator.add());
     }
-
+    @Test
+    public void testSub(){
+        assertEquals(-2,calculator.sub());
+    }
 
 
 
